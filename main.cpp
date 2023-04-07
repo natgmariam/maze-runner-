@@ -1,5 +1,4 @@
 /*
-Name: Natnael Gebremariam, 5002150850, 1002, Assignment 2
 Description: Program uses recursion to visit each accessible cell onces 
 Input: Text file and user enters a starting point
 Output: A board where every cell has been visited at least once
@@ -14,7 +13,6 @@ const int COLUMNS = 7;
 const int ZERO = 0; 
 char grid[ROWS][COLUMNS]; 
 int MaxSteps = 0; 
-//bool fill_grid(char grid[][COLUMNS], int currentX, int currentY, int stepCount);
 bool fill_grid(char grid[][7], int currentX, int currentY, int endX, int endY, int stepCount); 
 void readFile(fstream &inFile, char grid[][COLUMNS]);
 void printGrid();
